@@ -1,19 +1,16 @@
 export function getMotivationalMessage(found: number, total: number): string {
   const percent = (found / total) * 100;
+  const remaining = total - found;
 
-  if (found === 0) return '¡La aventura te espera! Empieza a buscar...';
-  if (found === 1) return '¡Encontraste al primero! Esto apenas comienza...';
-  if (found === 2) return '¡Vas por buen camino! Sigue explorando...';
-  if (percent < 15) return '¡Gran inicio! Hay mucho por descubrir...';
-  if (percent < 25) return '¡Sigues avanzando! Cada rincón esconde algo especial...';
-  if (percent < 35) return '¡Ya llevas varios! Tu ojo de detective es increíble...';
-  if (percent < 50) return '¡Casi la mitad! No hay escondite que se te resista...';
-  if (percent < 60) return '¡Más de la mitad! Eres imparable...';
-  if (percent < 70) return '¡Increíble progreso! Quedan pocos por encontrar...';
-  if (percent < 80) return '¡Estás que arrasas! Ya casi los tienes todos...';
-  if (percent < 90) return '¡Faltan muy poquitos! Puedes sentir el premio cerca...';
-  if (percent < 100) return '¡Casi, casi! Unos pocos más y descubrirás la sorpresa...';
-  return '¡LO LOGRASTE! Has encontrado a todos. Eres increíble.';
+  if (found === 0) return 'Muevalo gorda, tengo hambre!';
+  if (percent <= 20) return 'Muevalo gorda, tengo hambre!';
+  if (percent <= 40) return 'Primer peaje...';
+  if (percent <= 60) return 'Movete olda movete 🎵';
+  if (percent <= 80) return 'Yo soy lechona y tengo aguante 🎶';
+  if (remaining === 1) return 'Eh eh eheheh, eh eh eheheh 👀';
+  if (percent <= 90) return 'Epaaa, ya casi...';
+  if (percent < 100) return 'Eh eh eheheh, eh eh eheheh 👀';
+  return 'VAMO A CENAAAAR, SIUUUUUU 🔥';
 }
 
 export function getCategoryMessage(found: number, total: number, category: 'hp' | 'mario'): string {
