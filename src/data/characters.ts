@@ -28,11 +28,11 @@ export const characters: Character[] = [
   { id: 'mario-05', name: 'Yoshi',          category: 'mario', image: '/characters/mario/yoshi.png',         emoji: '🦎' },
   { id: 'mario-06', name: 'Bowser',         category: 'mario', image: '/characters/mario/bowser.png',        emoji: '🐢' },
   { id: 'mario-07', name: 'Donkey Kong',    category: 'mario', image: '/characters/mario/donkey-kong.png',   emoji: '🦍' },
-  { id: 'mario-08', name: 'Wario',          category: 'mario', image: '/characters/mario/wario.png',         emoji: '💛' },
-  { id: 'mario-09', name: 'Fire Mario',     category: 'mario', image: '/characters/mario/fire-mario.png',    emoji: '🔥' },
+  { id: 'mario-08', name: 'Mario Aventurero', category: 'mario', image: '/characters/mario/wario.png',        emoji: '💛' },
+  { id: 'mario-09', name: 'Mario Pintoso',  category: 'mario', image: '/characters/mario/fire-mario.png',    emoji: '🔥' },
   { id: 'mario-10', name: 'Fire Luigi',     category: 'mario', image: '/characters/mario/fire-luigi.png',    emoji: '💎' },
   { id: 'mario-11', name: 'Paragoomba',     category: 'mario', image: '/characters/mario/paragoomba.png',    emoji: '🍂' },
-  { id: 'mario-12', name: 'Luigi (verde)',   category: 'mario', image: '/characters/mario/luigi.png',        emoji: '🌟' },
+  { id: 'mario-12', name: 'Si, Otro Luigi',  category: 'mario', image: '/characters/mario/luigi.png',        emoji: '🌟' },
 ];
 
 export const hpCharacters = characters.filter(c => c.category === 'hp');
