@@ -61,7 +61,7 @@ export function CharacterCard({ character, isFound, onToggle, index }: Character
       >
         {character.image && !character.image.includes('undefined') ? (
           <img
-            src={character.image}
+            src={`${import.meta.env.BASE_URL}${character.image.replace(/^\//, '')}`}
             alt={character.name}
             className={`h-18 w-18 rounded-lg object-contain transition-all duration-300 ${
               isFound ? '' : 'grayscale-[0.3] opacity-80 group-hover:grayscale-0 group-hover:opacity-100'
