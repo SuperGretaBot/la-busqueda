@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Search, Sparkles, MapPin } from 'lucide-react';
+import { Search, Sparkles, MapPin, AlertTriangle } from 'lucide-react';
 
 export function Hero() {
   return (
@@ -71,6 +71,18 @@ export function Hero() {
             <p className="text-sm text-gray-600">
               Cuando los encuentres a <strong>todos</strong>, te espera una{' '}
               <span className="font-semibold text-amber-600">sorpresa muy especial</span>
+            </p>
+          </motion.div>
+
+          <motion.div
+            initial={{ opacity: 0, x: -10 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ delay: 0.7 }}
+            className="flex items-center gap-3 rounded-xl bg-amber-50/80 border border-amber-200/50 px-4 py-3 text-left shadow-sm backdrop-blur-sm"
+          >
+            <AlertTriangle className="h-5 w-5 shrink-0 text-amber-500" />
+            <p className="text-sm text-gray-600">
+              Los personajes se encuentran en sitios medianamente altos, donde Roma no llega (por seguridad)
             </p>
           </motion.div>
         </div>
