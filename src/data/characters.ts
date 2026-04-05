@@ -3,10 +3,10 @@ import type { Character } from '../types';
 export const characters: Character[] = [
   // ─── Harry Potter (17) ─────────────────────────────────
   { id: 'hp-01', name: 'Harry Potter',           category: 'hp', image: '/characters/hp/harry.png',        emoji: '⚡' },
-  { id: 'hp-02', name: 'Ginny Weasley',           category: 'hp', image: '/characters/hp/hermione.png',     emoji: '🔥' },
+  { id: 'hp-02', name: 'Ginny Weasley',           category: 'hp', image: '/characters/hp/hermione2.png',    emoji: '🔥' },
   { id: 'hp-03', name: 'Ron Weasley',            category: 'hp', image: '/characters/hp/ron.png',          emoji: '♟️' },
   { id: 'hp-04', name: 'Dumbledore Gay',         category: 'hp', image: '/characters/hp/dumbledore.png',   emoji: '🏳️‍🌈' },
-  { id: 'hp-05', name: 'Hermione Granger',       category: 'hp', image: '/characters/hp/hermione2.png',    emoji: '📚' },
+  { id: 'hp-05', name: 'Hermione Granger',       category: 'hp', image: '/characters/hp/hermione.png',     emoji: '📚' },
   { id: 'hp-06', name: 'Rubeus Hagrid',          category: 'hp', image: '/characters/hp/hagrid.png',       emoji: '🪄' },
   { id: 'hp-07', name: 'Lee Jordan',             category: 'hp', image: '/characters/hp/draco.png',        emoji: '📢' },
   { id: 'hp-08', name: 'Gilderoy Lockhart',      category: 'hp', image: '/characters/hp/luna.png',         emoji: '✨' },
