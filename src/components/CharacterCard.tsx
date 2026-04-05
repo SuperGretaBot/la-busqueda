@@ -49,7 +49,7 @@ export function CharacterCard({ character, isFound, onToggle, index }: Character
       {/* Character avatar */}
       <div
         className={`
-          relative flex h-20 w-20 items-center justify-center rounded-xl text-3xl transition-all duration-300
+          relative flex h-24 w-24 items-center justify-center rounded-xl text-3xl transition-all duration-300
           ${isFound
             ? isHp
               ? 'bg-amber-100'
@@ -63,7 +63,7 @@ export function CharacterCard({ character, isFound, onToggle, index }: Character
           <img
             src={`${import.meta.env.BASE_URL}${character.image.replace(/^\//, '')}`}
             alt={character.name}
-            className={`h-18 w-18 rounded-lg object-contain transition-all duration-300 ${
+            className={`h-22 w-22 rounded-lg object-contain transition-all duration-300 ${
               isFound ? '' : 'grayscale-[0.3] opacity-80 group-hover:grayscale-0 group-hover:opacity-100'
             }`}
             onError={(e) => {
