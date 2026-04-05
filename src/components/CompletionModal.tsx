@@ -139,7 +139,7 @@ export function CompletionModal({ isOpen, onClose }: CompletionModalProps) {
                 </div>
 
                 <p className="mb-2 text-base font-semibold text-purple-700">
-                  Los encontraste todos
+                  Lojencontraste todos
                 </p>
                 <p className="mb-6 text-sm text-gray-500">
                   Gracias por compartir conmigo tantas tontadas, por aguantarme y ser la mejor esposa de esta vida y la otra, gracias por jugar este juego, eres lo mejor de mi vida.
