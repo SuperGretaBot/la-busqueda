@@ -80,7 +80,7 @@ export function CharacterCard({ character, isFound, onToggle, index }: Character
 
       {/* Name */}
       <span
-        className={`text-center text-sm font-medium leading-tight transition-colors ${
+        className={`w-full text-center text-xs font-medium leading-snug transition-colors ${
           isFound ? 'text-gray-800' : 'text-gray-500 group-hover:text-gray-700'
         }`}
       >

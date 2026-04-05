@@ -102,7 +102,7 @@ export function CategorySection({
       </div>
 
       {/* Characters grid */}
-      <div className="grid grid-cols-3 gap-3 px-4 pb-5 md:grid-cols-4 lg:grid-cols-6">
+      <div className="grid grid-cols-3 gap-3 px-4 pb-5">
         {characters.map((character, index) => (
           <CharacterCard
             key={character.id}
