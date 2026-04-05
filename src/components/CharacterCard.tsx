@@ -21,7 +21,7 @@ export function CharacterCard({ character, isFound, onToggle, index }: Character
       whileTap={{ scale: 0.95 }}
       onClick={() => onToggle(character.id)}
       className={`
-        group relative flex flex-col items-center gap-2 rounded-2xl border-2 p-3 transition-all duration-300
+        group relative flex flex-col items-center gap-3 rounded-2xl border-2 p-4 transition-all duration-300
         ${isFound
           ? isHp
             ? 'border-hp-secondary/50 bg-gradient-to-b from-amber-50 to-amber-100/50 shadow-md shadow-amber-200/30'
@@ -49,7 +49,7 @@ export function CharacterCard({ character, isFound, onToggle, index }: Character
       {/* Character avatar */}
       <div
         className={`
-          relative flex h-16 w-16 items-center justify-center rounded-xl text-3xl transition-all duration-300
+          relative flex h-20 w-20 items-center justify-center rounded-xl text-3xl transition-all duration-300
           ${isFound
             ? isHp
               ? 'bg-amber-100'
@@ -63,7 +63,7 @@ export function CharacterCard({ character, isFound, onToggle, index }: Character
           <img
             src={character.image}
             alt={character.name}
-            className={`h-14 w-14 rounded-lg object-contain transition-all duration-300 ${
+            className={`h-18 w-18 rounded-lg object-contain transition-all duration-300 ${
               isFound ? '' : 'grayscale-[0.3] opacity-80 group-hover:grayscale-0 group-hover:opacity-100'
             }`}
             onError={(e) => {
@@ -80,7 +80,7 @@ export function CharacterCard({ character, isFound, onToggle, index }: Character
 
       {/* Name */}
       <span
-        className={`text-center text-xs font-medium leading-tight transition-colors ${
+        className={`text-center text-sm font-medium leading-tight transition-colors ${
           isFound ? 'text-gray-800' : 'text-gray-500 group-hover:text-gray-700'
         }`}
       >
