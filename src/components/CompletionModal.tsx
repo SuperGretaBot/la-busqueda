@@ -123,7 +123,7 @@ export function CompletionModal({ isOpen, onClose }: CompletionModalProps) {
                 transition={{ delay: 0.3 }}
               >
                 <h2 className="mb-2 font-display text-2xl font-bold text-gray-900">
-                  ¡Lo lograste!
+                  TATIS ERES UNA TESA
                 </h2>
 
                 <div className="mb-4 flex items-center justify-center gap-1">
@@ -138,12 +138,11 @@ export function CompletionModal({ isOpen, onClose }: CompletionModalProps) {
                   ))}
                 </div>
 
-                <p className="mb-2 text-base text-gray-600">
-                  Encontraste los <strong className="text-purple-700">29 personajes</strong>.
+                <p className="mb-2 text-base font-semibold text-purple-700">
+                  Los encontraste todos
                 </p>
                 <p className="mb-6 text-sm text-gray-500">
-                  Tu dedicación y ojo de detective son asombrosos. Cada rincón del
-                  apartamento fue explorado y cada personaje descubierto.
+                  Gracias por compartir conmigo tantas tontadas, por aguantarme y ser la mejor esposa de esta vida y la otra, gracias por jugar este juego, eres lo mejor de mi vida.
                 </p>
               </motion.div>
 
@@ -158,8 +157,7 @@ export function CompletionModal({ isOpen, onClose }: CompletionModalProps) {
                   ¡Hay un premio esperándote!
                 </p>
                 <p className="text-sm text-amber-700">
-                  Has desbloqueado una sorpresa muy especial. Pregunta por tu
-                  recompensa... te la mereces toda.
+                  ¿Qué esperas? Buscame, cansame para que te cuente cuál es el premio!!
                 </p>
               </motion.div>
             </div>
